@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    align-items: center;
+    background-color: #CCE4F7;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+.formBlock{
+    border: 1px solid black;
+    padding: 60px 70px;
+    line-height:40px;
+    margin: auto;
+}
+
+.db{
+    display: block;
+}
+
+.signUpHeading{
+    font-size: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.emailHeading, .passwordHeading{
+    display: block;
+    line-height: 20px;
+}
+
+.emailInput, .passwordInput{
+    height: 34px;
+    width: 100%;
+}
+
+.emailBox, .passwordBox{
+    margin-bottom: 20px;
+}
+
+.submitBtn{
+    background-color: #4571DA;
+    border-radius: 10px;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.submitBtn:hover{
+    background-color:#0044DD;
+}
+
+.buttonBox{
+    text-align: center;
+}
+
+.logInLink{
+    color: #006EDD;
+    text-decoration: underline;
+}
+
+.logInLink:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.logInText{
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+.errorMsg{
+    color: red;
+    font-size: 12px;
+}
+
+.btn{
+    cursor: pointer;
+    opacity: 0.5;
+    padding: 10px; 
+}
+
+.btn:hover{
+    opacity: 1;
+}

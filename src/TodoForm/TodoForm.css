@@ -1,0 +1,27 @@
+.taskInput{
+    border: none;
+    height: 100%;
+    width: 90%;
+    padding-right: 8%;
+    padding-left:2%;
+    border-radius: 12px;
+    
+}
+.plusBtn{
+    border:none;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    position:absolute;
+    top:30%;
+    right: 4px;
+}
+
+.todoForm{
+    height: 40px;
+    width:100%;
+    background-color: white;
+    position: relative;
+    margin-bottom: 30px;
+    border-radius: 12px;    
+}

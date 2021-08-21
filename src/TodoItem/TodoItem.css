@@ -1,0 +1,33 @@
+.todoText{
+    display: inline-block;
+}
+
+.todoItemBox{
+    min-height: 40px;
+    width:100%;
+    background-color: white;
+    position: relative;
+    margin-bottom: 30px;
+    border-radius: 12px;
+}
+
+.todoText{
+    border: none;
+    
+    height: 100%;
+    width: 90%;
+    padding-right: 8%;
+    padding-left:2%;
+    border-radius: 12px;
+    line-height: 40px;
+    
+}
+.deleteText{
+    border:none;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    position:absolute;
+    top:30%;
+    right: 4px;
+}

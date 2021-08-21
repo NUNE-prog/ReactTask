@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.pageTitle{
+    display: inline-block;
+    margin-right: 134px;
+}
+
+.logOutBtn{
+    padding: 4px 4px;
+}
+
+.logOutBtn:hover{
+    background-color:#9D9D9D;
+}
+
+.userContainer{
+    background-color: #d3d3d3;
+    width: 300px;
+    margin: 0 auto;
+    position:relative;
+    padding: 40px;    
+}
+
+.headerPart{
+    width: 100%;
+    margin-bottom:30px;
+}
+
